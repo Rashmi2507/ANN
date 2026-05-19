@@ -1,0 +1,40 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.jupyter
+
+# Data and models (optional - uncomment if you want to exclude large files)
+# *.csv
+# *.h5
+# logs/
+
+# Streamlit
+.streamlit/
